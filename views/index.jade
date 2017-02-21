@@ -1,0 +1,118 @@
+extend layout
+
+block content
+  include navbar.jade
+  .container
+  .row
+    .col-lg-9.offset-lg-2
+      #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+        ol.carousel-indicators
+          li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+          li(data-target='#carouselExampleIndicators', data-slide-to='1')
+          li(data-target='#carouselExampleIndicators', data-slide-to='2')
+          li(data-target='#carouselExampleIndicators', data-slide-to='3')
+        .carousel-inner(role='listbox')
+          .carousel-item.active
+            img.d-block.img-fluid(src='/images/bg2.png', alt='First slide')
+            .carousel-caption.d-none.d-md-block
+              h3 SuperCaly comprises of three key features 
+              p#ft Organise events ● Reach your friends ● Know your whereabouts
+          .carousel-item
+            img#imagebg.d-block.img-fluid(src='/images/calendar.png', alt='Second slide')
+            .carousel-caption.d-none.d-md-block
+              h3 Create.Edit.Remove.Search Events 
+              p#ft ● Create new events 
+                br 
+                | ● Sync your google account events
+                br
+                | ● Enables quick and easy Event edits 
+                br
+                | ● Auto-syncs with photo Gallery
+                br
+                | ● Quick event search enabled
+                br
+                | ● Dashboard view of all your upcoming and favorite Events
+          .carousel-item
+            img#imagebg.d-block.img-fluid(src='/images/chat.png', alt='Third slide')
+            .carousel-caption.d-none.d-md-block
+              h3 Chat with Friends and Family
+              p#ft ● Send invites to colleague over chat  
+                br 
+                | ● Plan events with friends
+                br
+                | ● Favorite all your important chats 
+                br
+                | ● Delete old chat history
+                br
+                | ● Send messages over email and receive response as a chat message 
+                br
+                | ● Share photos and videos of the event
+          .carousel-item
+            img#imagebg.d-block.img-fluid(src='/images/location.png', alt='Fourth slide')
+            .carousel-caption.d-none.d-md-block
+              h3 Chat with Friends and Family
+              p#ft ● Send invites to colleague over chat  
+                br 
+                | ● Plan events with friends
+                br
+                | ● Favorite all your important chats 
+                br
+                | ● Delete old chat history
+                br
+                | ● Send messages over email and receive response in a chat 
+                br
+                | ● Share photos and videos of the event
+
+        a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.sr-only Previous
+        a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.sr-only Next
+  #download.row
+    .col-md-8 
+      p Try SuperCaly Now!!! Click on install button to get the latest APK for your android device
+    .col-md-3
+    .col-md-1
+      a.btn.btn-info(href='/apk/app-debug.apk') Install
+  #tutorialdemo.row
+    .col-md-1
+    .col-md-10
+      .justify-content-center ---Get Started---
+      p Follow these simple steps and explore a whole new way to organise your daily routine affairs:
+      p 1. Download SuperCaly apk on your phone. Once you've done that, click on the downloaded file to start the installation process.
+        br
+        | 2. Accept the terms and conditions to get started.
+        br
+        | 3. Sign Up and Sign In
+        p To enjoy all the location tracking features, sign in with your google account. For a detailed tutorial.. 
+          a.text-primary(href='/tutorial') Click Here!
+    .col-md-1
+  #aboutus.row
+    .col-md-12 ABOUT SUPERCALY
+      .col-md-12
+        br
+        p.text-white What is SuperCaly?
+        | SuperCaly, derived from "Super Calendar", is a mobile-based calendar application designed for both android and IOS environments.
+        | While the key idea of SuperCaly is derived from a traditional Calendar application, it is much more powerful. In addition to the functionality of
+        | creating events and sending invites, SuperCaly extends this basic functionality of
+        | a calendar app and provides features like:
+        br
+        | ● Organised Event View
+        br
+        | ● Auto-location event generation
+        br
+        | ● Map-View of the calendar events
+        br
+        | ● Auto-sync of google events
+        br
+        | ● Convenient content search
+        br
+        | ● Functionality to chat
+        br
+        br
+        p.text-white Our Goal
+        p The primary thought behind the creation of SuperCaly was to create an application that will help people organise life better, by providing them with all means and information needs.
+        p.text-white Team SuperCaly
+        p ● |  Professor Ilmi Yoon | ●  Gary Ng | ●  Haichuan Duan  | ●  Xuejing Dong  | ●  Rujoota Shah  | ●  Anu Aggarwal  | ●  Cheng Li  | ●
+  footer.footer.text-muted &copy; SuperCaly

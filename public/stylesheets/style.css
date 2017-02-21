@@ -1,0 +1,43 @@
+body {
+  background-image:url("/images/splash1.png");
+  background-position: -100px -250px;
+  background-repeat: no-repeat;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+#ft{
+    color:#006080;
+    text-align:right;
+}
+
+h3
+{
+    color:black;
+    text-align:right;
+}
+
+#imagebg
+{
+    opacity:0.5;
+}
+
+#download
+{   padding : 0.7rem;
+    background-color:#3ca2c3;
+    color: white;
+}
+
+#tutorialdemo
+{
+    padding : 1rem;
+    background-color: #d8ecf3;
+    color: slategrey;
+}
+
+#aboutus
+{
+    padding : 1rem;
+    background-color: #b1d9e7;
+    color: #2F4F4F;
+}
