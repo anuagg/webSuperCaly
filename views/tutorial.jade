@@ -6,17 +6,86 @@ block content
     .col-md-2
       .left
         .container
-          a.navbar-brand(href='#')  Get Started 
+          a.navbar-brand(href='#tutorialdemo')  Get Started 
           ul.nav.navbar-nav.ml-auto
             li.nav-item.active
-              a.nav-link(href='#') Home
+              a.nav-link(href='#calendar') Home Tab
             li.nav-item
-              a.nav-link(href='#') Link
+              a.nav-link(href='#dashboard') DashBoard
             li.nav-item
-              a.nav-link(href='#') Link
+              a.nav-link(href='#chat') Chat
           ul.nav.navbar-nav
             li.nav-item
-              a.nav-link(href='#') Link on the Right
+              a.nav-link(href='#location') Map
+            li.nav-item
+              a.nav-link(href='#settings') SideBar Menu
     .col-md-10
-      #tutorialdemo.row  hello wohkdjhgk
+      #tutorialdemo.row  
+        div 
+          h2 Get Started
+          p 1. Download the app from app store.
+            br
+            | 2. Accept all terms and conditions to enjoy all SuperCaly features.
+            br
+            | 3. Sign Up and Sign In with your Google account. In case you don't have one, you can register with your Phone Number too.
+            br
+            | 4. The application has four main tabs:
+          p#calendar.font-weight-bold Calendar
+          p On home screen you can see a monthly Calendar. This is where you can view all your events sorted by date, as small colorful dots.
+            br
+            | 5. When you sign in with your Google account, location events based on your location history get automatically created. You can view these events on Calendar as well.
+            br
+            img.tutorialimg(src='/images/super1.png', alt='screenshot')
+            br
+            | 6. Click on a calendar date to view all the events associated with that date. You can further click on the event to view detailed event information.
+            br
+            | 7. Right swipe an event to add it to favorites or create an event chat. [See Image Above]
+            br
+            | 8. Left swipe an event to delete it. [See Image Above]
+          p#dashboard.font-weight-bold DashBoard
+          p The second tab is dashboard. This is where you can view your events sorted based on location and time. All your favorite and upcoming events are also listed here
+            br
+            | 9. Click on the search symbol, present on topmost bar, to search for an event.
+            br
+            | 10. You can add filters to the events that are displayed on the dashboard. For example: you can filter out all the auto created driving or walking events. [See Image Below]
+            br
+            img.tutorialimg(src='/images/super2.png', alt='screenshot')
+            br
+            | 11. Click on Upcoming Tab to view near-future events.
+            br
+            | 12. Click on Favorite Tab to view all favorited events.
+          p#chat.font-weight-bold Chat
+          p The third tab is where all your chats can be viewed.
+            br
+            | You can also view all your SuperCaly friends, by clicking the Friends tab present.
+            br
+            | 13. Click on any chat to view the messages.
+            br
+            | 14. You can send messages, photos or videos here.
+            br
+            | 15. A minimum of two people are required to create a chat AND the person who created the chat has the authority to remove people from the chat.
+          p#location.font-weight-bold Track Map
+          p The fourth and the last tab has a map, where you can view a well defined path of where you were today, this week or any other time in the past.
+            br
+            | 16. Click on the dropdownlist to change path display for a day to week to months.
+            br
+            | 17. Select the dates of which you want to track your location history.
+          div.bg-info.font-weight-bold#settings Sidebar 
+          br
+          p#settings.font-weight-bold Settings
+          p Swipe the screen to right. Click on settings. Here you can:
+            br
+            | 18. Do general Calendar settings, like set the starting day of the week et catera.
+            br
+            | 19. Add Google calendar accounts to sync calendars
+          p#locationsetting.font-weight-bold Location Setting
+          p You can manually turn on the location tracking by clicking on location settings from the sidebar.
+            br
+            | 20. Turn on the location sensor, in case its Off.
+            br
+            | 21. Click on 'Click to Connect' button to connect with your Google account and get all location information.
+          p#contacts.font-weight-bold Contacts
+          p  You can also view your contacts, by clicking on Contacts from the sidebar.
+          
+          
   footer.footer.text-muted &copy; SuperCaly
