@@ -1,14 +1,16 @@
 body {
   background-image:url("/images/splash1.png");
-  background-position: -100px -250px;
-  background-repeat: no-repeat;
+  background-position: -200px -300px;
+  background-repeat: repeat;
   color: black;
   font-family: 'Roboto', sans-serif;
 }
 
 #ft{
     color:#006080;
-    text-align:right;
+    text-align:left;
+    font-family:‘Lucida Console’, Monaco, monospace;
+    font-weight:600;
 }
 
 h3
@@ -19,11 +21,11 @@ h3
 
 #imagebg
 {
-    opacity:0.5;
+    opacity:0.3;
 }
 
 #download
-{   padding : 0.7rem;
+{ 
     background-color:#3ca2c3;
     color: white;
 }
@@ -40,4 +42,14 @@ h3
     padding : 1rem;
     background-color: #b1d9e7;
     color: #2F4F4F;
+}
+
+.left {
+  position:relative; // keep fixed to window
+  padding: 10px;
+  top: 0; left: 0; // position to top left of window
+  height:100%; //set dimensions
+  background:darkslategray;
+  transition: width ease .5s; 
+  width:100%; 
 }

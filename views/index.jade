@@ -4,7 +4,7 @@ block content
   include navbar.jade
   .container
   .row
-    .col-lg-9.offset-lg-2
+    .col-lg-7.offset-lg-3
       #carouselExampleIndicators.carousel.slide(data-ride='carousel')
         ol.carousel-indicators
           li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
@@ -13,55 +13,56 @@ block content
           li(data-target='#carouselExampleIndicators', data-slide-to='3')
         .carousel-inner(role='listbox')
           .carousel-item.active
-            img.d-block.img-fluid(src='/images/bg2.png', alt='First slide')
+            img.d-block.img-fluid(src='/images/bg.png', alt='First slide')
             .carousel-caption.d-none.d-md-block
-              h3 SuperCaly comprises of three key features 
-              p#ft Organise events ● Reach your friends ● Know your whereabouts
+              
+              h3 
+                br
+                | SuperCaly comprises of three key features 
+              p#ft Organise events . Reach your friends . Know your whereabouts
           .carousel-item
             img#imagebg.d-block.img-fluid(src='/images/calendar.png', alt='Second slide')
             .carousel-caption.d-none.d-md-block
               h3 Create.Edit.Remove.Search Events 
-              p#ft ● Create new events 
+              p#ft  > Create new events 
                 br 
-                | ● Sync your google account events
+                |  > Sync your google account events
                 br
-                | ● Enables quick and easy Event edits 
+                |  > Enables quick and easy Event edits 
                 br
-                | ● Auto-syncs with photo Gallery
+                |  > Auto-syncs with photo Gallery
                 br
-                | ● Quick event search enabled
+                |  > Quick event search enabled
                 br
-                | ● Dashboard view of all your upcoming and favorite Events
+                |  > Dashboard view of all your upcoming and favorite Events
           .carousel-item
             img#imagebg.d-block.img-fluid(src='/images/chat.png', alt='Third slide')
             .carousel-caption.d-none.d-md-block
               h3 Chat with Friends and Family
-              p#ft ● Send invites to colleague over chat  
+              p#ft > Send invites to colleague over chat  
                 br 
-                | ● Plan events with friends
+                | > Plan events with friends
                 br
-                | ● Favorite all your important chats 
+                | > Favorite all your important chats 
                 br
-                | ● Delete old chat history
+                | > Delete old chat history
                 br
-                | ● Send messages over email and receive response as a chat message 
+                | > Send messages over email and receive response in chat
                 br
-                | ● Share photos and videos of the event
+                | > Share photos and videos of the event
           .carousel-item
             img#imagebg.d-block.img-fluid(src='/images/location.png', alt='Fourth slide')
             .carousel-caption.d-none.d-md-block
-              h3 Chat with Friends and Family
-              p#ft ● Send invites to colleague over chat  
+              h3 Stalk Yourself
+              p#ft > Auto creation of events based on your location 
                 br 
-                | ● Plan events with friends
+                | > Location of your current events get auto-updated
                 br
-                | ● Favorite all your important chats 
+                | > Visual timeline of your whereabouts
                 br
-                | ● Delete old chat history
+                | > Search the places you've been to
                 br
-                | ● Send messages over email and receive response in a chat 
-                br
-                | ● Share photos and videos of the event
+                | > Save and relive your memories
 
         a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
           span.carousel-control-prev-icon(aria-hidden='true')
@@ -71,20 +72,22 @@ block content
           span.sr-only Next
   #download.row
     .col-md-8 
-      p Try SuperCaly Now!!! Click on install button to get the latest APK for your android device
-    .col-md-3
-    .col-md-1
-      a.btn.btn-info(href='/apk/app-debug.apk') Install
+      br
+      p Try SuperCaly Now!!! Our app is now available on Google Play.
+    .col-md-2
+    .col-md-2
+      a.btn(href='http://play.google.com/store/apps/details?id=com.google.android.apps.maps')
+        img(src='/images/google-play-badge.png', alt='Install', width='100%', height='100%')
   #tutorialdemo.row
     .col-md-1
     .col-md-10
       .justify-content-center ---Get Started---
       p Follow these simple steps and explore a whole new way to organise your daily routine affairs:
-      p 1. Download SuperCaly apk on your phone. Once you've done that, click on the downloaded file to start the installation process.
+      p 1. You'll be redirected to the app store, once to click on the Google store button above. Install SuperCaly from the app store to your mobile phone.
         br
         | 2. Accept the terms and conditions to get started.
         br
-        | 3. Sign Up and Sign In
+        | 3. Sign Up and then Sign In
         p To enjoy all the location tracking features, sign in with your google account. For a detailed tutorial.. 
           a.text-primary(href='/tutorial') Click Here!
     .col-md-1
